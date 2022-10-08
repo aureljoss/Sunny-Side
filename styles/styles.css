@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    font-family: 'Fraunces', serif;
+}
+
+header {
+    height: 800px;
+    background-image: url("/images/desktop/image-header.jpg");
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 4em;
+    color:white;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 0 2em;
+}
