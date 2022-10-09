@@ -135,3 +135,17 @@ footer ul{
     transform:translateY(-22px);
     position:absolute;
 }
+
+#clients{
+    max-width:80%;
+    margin:auto;
+    text-align: center;
+}
+
+#three-columns{
+    display: flex;
+}
+
+.one-third{
+    max-width: 30%;
+}
