@@ -10,6 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,200&family=Raleway:wght@300;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Fraunces">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
@@ -22,12 +25,12 @@
 <body>
   <header>
     <nav>
-      <img src="/images/logo.svg" alt="sunnyside logo">
+      <img src="/images/logo.svg" alt="sunnyside logo" id="logo" width="170px" height="33px">
       <ul id="menu">
         <li> About </li>
         <li> Services </li>
         <li> Projects </li>
-        <li> Contact</li>
+        <li id="contact"> Contact</li>
       </ul>
   </header>
 
@@ -41,7 +44,7 @@
       <h3> Transform your brand</h3>
       <p> We are a full-service creative agency specializing in helping brands grow fast. 
         Engage your clients through compelling visuals that do most of the marketing for you.</p>
-      <p>Learn more</p>
+      <p class="clickable">Learn more</p>
     </div>
     <div>
       <img src="/images/desktop/image-transform.jpg" alt="photography of an egg">
@@ -55,7 +58,7 @@
     <div>
       <h3> Stand out to the right audiance</h3>
       <p> Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-      <p> Learn more</p>
+      <p class="clickable"> Learn more</p>
     </div>
   </section>
 
