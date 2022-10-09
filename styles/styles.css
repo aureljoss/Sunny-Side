@@ -15,7 +15,7 @@ nav{
     text-align: center;
     color:white;
     min-height: 80vh;
-    background-image: url("./images/desktop/image-header.jpg");
+    background-image: url("/images/desktop/image-header.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     letter-spacing: 9px;    
@@ -78,13 +78,13 @@ footer ul{
 
 
 #cherries{
-    background-image: url("./images/desktop/image-graphic-design.jpg");
+    background-image: url("images/desktop/image-graphic-design.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #orange{
-    background-image: url("./images/desktop/image-photography.jpg");
+    background-image: url("images/desktop/image-photography.jpg");
     background-size:cover;
     background-repeat: no-repeat;
 }
