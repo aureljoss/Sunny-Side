@@ -15,7 +15,7 @@ nav{
     text-align: center;
     color:white;
     min-height: 80vh;
-    background-image: url("/images/desktop/image-header.jpg");
+    background-image: url("./images/desktop/image-header.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     letter-spacing: 9px;    
@@ -51,12 +51,14 @@ h1 {
 
 h3 {
     font-family:"Fraunces";
-    font-size:40px;}
+    font-size:40px;
+    font-weight:800;
+}
 
 .clickable{
     text-transform: uppercase;
     font-size:15px;
-
+    font-weight:800;
 }
 
 footer ul{
@@ -68,14 +70,21 @@ footer ul{
     height: 600px;
 }
 
+.half-text{
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+
 #cherries{
-    background-image: url("/images/desktop/image-graphic-design.jpg");
+    background-image: url("./images/desktop/image-graphic-design.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #orange{
-    background-image: url("/images/desktop/image-photography.jpg");
+    background-image: url("./images/desktop/image-photography.jpg");
     background-size:cover;
     background-repeat: no-repeat;
 }
