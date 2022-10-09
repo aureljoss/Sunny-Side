@@ -4,16 +4,21 @@ body{
     font-size: 18px;
 }
 
-header {
-    height: 800px;
-    background-image: url("/images/desktop/image-header.jpg");
-}
-
 nav{
     display: flex;
     justify-content: space-between;
     padding: 2em 4em;
     color:white;
+}
+
+#creatives{
+    text-align: center;
+    color:white;
+    min-height: 80vh;
+    background-image: url("/images/desktop/image-header.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    letter-spacing: 9px;    
 }
 
 #menu{
@@ -56,4 +61,21 @@ h3 {
 
 footer ul{
     display: flex;
+}
+.two-columns{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+#cherries{
+    background-image: url("/images/desktop/image-graphic-design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#orange{
+    background-image: url("/images/desktop/image-photography.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
 }
