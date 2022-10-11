@@ -52,14 +52,17 @@ h1 {
 h3 {
   font-family: "Fraunces";
   font-size: 40px;
-  font-weight: 800;
+  font-weight: 900;
 }
 
+p{
+    font-weight:600;}
+
 .clickable {
-  text-transform: uppercase;
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 900;
   z-index: 1;
+  font-family:"Fraunces";
 }
 
 footer ul {
@@ -68,6 +71,7 @@ footer ul {
 .two-columns {
   display: flex;
   flex-direction: row;
+  margin:0;
 }
 
 .half-text {
@@ -81,24 +85,32 @@ footer ul {
     max-height:600px;
 }
 
+.images-div{max-height:600px;}
+
 .pictures {
-  width: 50vw;
+  width:50vw;
   height:auto;
-  
+  margin:0;  
 }
 
 #cherries {
   background-image: url("/images/desktop/image-graphic-design.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 50%;
+  color:#3E7467;
+  margin-bottom: 0px;
+  width:50vw;
+  height:auto;
 }
 
 #orange {
   background-image: url("/images/desktop/image-photography.jpg");
   background-size: cover;
   background-repeat: none;
-  max-width: 50%;
+  color:#19536C;
+  margin-bottom: 0px;
+  width:50vw;
+  height:auto;
 }
 
 .grey {
@@ -107,17 +119,15 @@ footer ul {
 }
 
 .text-on-images {
-  width: 50%;
-  height: 600px;
-  margin: 0 auto;
-  transform: translateY(70%);
+  width: 60%;
+  margin:auto;
   text-align: center;
 }
 
 .subtitles {
   font-size: 28px;
   font-family: "Fraunces";
-  margin: 0;
+  margin-bottom: 0;
 }
 
 #yellow-line {
