@@ -1,151 +1,155 @@
-body{
-    margin:0;
-    font-family: 'Barlow', serif;
-    font-size: 18px;
+body {
+  margin: 0;
+  font-family: "Barlow", serif;
+  font-size: 18px;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 2em 4em;
-    color:white;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 4em;
+  color: white;
 }
 
-#creatives{
-    text-align: center;
-    color:white;
-    min-height: 80vh;
-    background-image: url("/images/desktop/image-header.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    letter-spacing: 9px;    
+#creatives {
+  text-align: center;
+  color: white;
+  min-height: 80vh;
+  background-image: url("/images/desktop/image-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  letter-spacing: 9px;
 }
 
-#menu{
-    display: flex;
-    align-items: center;
+#menu {
+  display: flex;
+  align-items: center;
 }
 
-ul li{
-    list-style-type: none;
-    margin: 0 2em;
+ul li {
+  list-style-type: none;
+  margin: 0 2em;
 }
 
 #contact {
-    margin: 2em;
-    background-color: #FFFFFF;
-    color: #24303E;
-    padding: .5em 1em;
-    border-radius: 1em;
-    font-weight: 600;
-    font-size:15px;
-    font-family: "Fraunces";
-    text-transform: uppercase;
+  margin: 2em;
+  background-color: #ffffff;
+  color: #24303e;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "Fraunces";
+  text-transform: uppercase;
 }
 
 h1 {
-    font-family: "Fraunces";
-    text-transform: uppercase;
-    font-size: 56px;;
+  font-family: "Fraunces";
+  text-transform: uppercase;
+  font-size: 56px;
 }
 
 h3 {
-    font-family:"Fraunces";
-    font-size:40px;
-    font-weight:800;
+  font-family: "Fraunces";
+  font-size: 40px;
+  font-weight: 800;
 }
 
-.clickable{
-    text-transform: uppercase;
-    font-size:15px;
-    font-weight:800;
-    z-index: 1;
+.clickable {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 800;
+  z-index: 1;
 }
 
-footer ul{
-    display: flex;
+footer ul {
+  display: flex;
 }
-.two-columns{
-    display: flex;
-    flex-direction: row;
-    height: 600px;
-}
-
-.half-text{
-    width: 60%;
-    margin:auto;
-    transform: translateY(50%);;
+.two-columns {
+  display: flex;
+  flex-direction: row;
 }
 
-.pictures{
+.half-text {
+  width: 60%;
+  margin: auto;
+  max-height:600px;
+}
+
+.first-half{
     width:50vw;
     max-height:600px;
 }
 
-
-#cherries{
-    background-image: url("/images/desktop/image-graphic-design.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:50%;
+.pictures {
+  width: 50vw;
+  height:auto;
+  
 }
 
-#orange{
-    background-image: url("/images/desktop/image-photography.jpg");
-    background-size:cover;
-    background-repeat: none;
-    max-width:50%;
+#cherries {
+  background-image: url("/images/desktop/image-graphic-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
 }
 
-.grey{
-    color: #808397;
-    font-weight:400;
+#orange {
+  background-image: url("/images/desktop/image-photography.jpg");
+  background-size: cover;
+  background-repeat: none;
+  max-width: 50%;
 }
 
-.text-on-images{
-    width:50%;
-    height:600px;
-    margin:0 auto;
-    transform: translateY(70%);
-    text-align:center;
+.grey {
+  color: #808397;
+  font-weight: 400;
 }
 
-.subtitles{
-    font-size: 28px;
-    font-family: "Fraunces";
-    margin:0;
+.text-on-images {
+  width: 50%;
+  height: 600px;
+  margin: 0 auto;
+  transform: translateY(70%);
+  text-align: center;
 }
 
-#yellow-line{
-    background-color: #FAD400;
-    height:10px;
-    width:6rem;
-    border-radius: 28px;
-    z-index: -1;
-    transform:translateY(-22px);
-    position:absolute;
+.subtitles {
+  font-size: 28px;
+  font-family: "Fraunces";
+  margin: 0;
 }
 
-#red-line{
-    background-color: #FE7766;
-    height:10px;
-    width:6rem;
-    border-radius: 28px;
-    z-index: -1;
-    transform:translateY(-22px);
-    position:absolute;
+#yellow-line {
+  background-color: #fad400;
+  height: 10px;
+  width: 6rem;
+  border-radius: 28px;
+  z-index: -1;
+  transform: translateY(-22px);
+  position: absolute;
 }
 
-#clients{
-    max-width:80%;
-    margin:auto;
-    text-align: center;
+#red-line {
+  background-color: #fe7766;
+  height: 10px;
+  width: 6rem;
+  border-radius: 28px;
+  z-index: -1;
+  transform: translateY(-22px);
+  position: absolute;
 }
 
-#three-columns{
-    display: flex;
+#clients {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
-.one-third{
-    max-width: 30%;
+#three-columns {
+  display: flex;
+}
+
+.one-third {
+  max-width: 30%;
 }
