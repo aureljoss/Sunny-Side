@@ -163,3 +163,13 @@ footer ul {
 .one-third {
   max-width: 30%;
 }
+
+
+.names{
+  font-family: "Fraunces";
+}
+
+.roles{
+  color: #A7AAAD;
+  font-size:14px;
+}
