@@ -55,6 +55,11 @@ h3 {
   font-weight: 900;
 }
 
+h6{
+  font-size:20px;
+  font-family:"Fraunces";
+}
+
 p{
     font-weight:600;}
 
@@ -172,4 +177,14 @@ footer ul {
 .roles{
   color: #A7AAAD;
   font-size:14px;
+}
+
+.portraits{
+  height:72px;
+  width:auto;
+  border-radius: 36px;
+}
+
+.testimonial-text{
+  color: #5B636D;
 }
