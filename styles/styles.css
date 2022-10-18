@@ -73,7 +73,7 @@ p{
 .two-columns {
   display: flex;
   flex-direction: row;
-  margin:0;
+  align-content: flex-start;
 }
 
 .half-text {
@@ -92,7 +92,6 @@ p{
 .pictures {
   width:50vw;
   height:auto;
-  margin:0;  
 }
 
 #cherries {
