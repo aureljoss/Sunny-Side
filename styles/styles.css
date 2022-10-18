@@ -191,10 +191,19 @@ p{
   color: #5B636D;
 }
 
+#footer-images{
+  display: flex;
+  align-content: flex-start;  
+}
+
 .footer-img{
-  width:23vw;
+  width:25vw;
   height:auto;
-  margin:0px;
+}
+
+#footer-green{
+  background-color: #90D4C6;
+  color: #2C7566;
 }
 
 
