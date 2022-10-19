@@ -101,7 +101,7 @@ p{
 
 
 #cherries {
-  background-image: url("/images/desktop/image-graphic-design.jpg");
+  background-image: url("../images/desktop/image-graphic-design.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color:#3E7467;
@@ -111,7 +111,7 @@ p{
 }
 
 #orange {
-  background-image: url("/images/desktop/image-photography.jpg");
+  background-image: url("../images/desktop/image-photography.jpg");
   background-size: cover;
   background-repeat: none;
   color:#19536C;
