@@ -11,6 +11,7 @@ nav {
   color: white;
   align-items: center;
   position: absolute;
+  margin:0 auto;
 }
 
 #creatives {
@@ -35,7 +36,7 @@ ul li {
 }
 
 #contact {
-  margin: 2em;
+  margin: 0em 2em;
   background-color: #ffffff;
   color: #24303e;
   padding: 0.5em 1em;
@@ -75,29 +76,29 @@ p{
 }
 .two-columns {
   display: flex;
-  flex-direction: row;
-  align-content: flex-start;
+  height:600px;
+}
+
+.first-half{
+    width:50vw;
+}
+
+.images-div{
+  width: 50%;
+}
+
+.pictures {
+  height:100%;
+  width:auto;
+  margin:0px;
 }
 
 .half-text {
   width: 60%;
   margin: auto;
-  max-height:600px;
+  height:600px;
 }
 
-.first-half{
-    width:50vw;
-    max-height:600px;
-}
-
-.images-div{max-height:600px;
-  margin-bottom: 0px;
-}
-
-.pictures {
-  width:50vw;
-  height:auto;
-}
 
 #cherries {
   background-image: url("/images/desktop/image-graphic-design.jpg");
@@ -158,8 +159,8 @@ p{
 
 #clients {
   max-width: 80%;
-  margin: auto;
   text-align: center;
+  margin:160px auto;
 }
 
 #three-columns {
@@ -170,11 +171,6 @@ p{
   max-width: 30%;
   margin: auto 15px;
 }
-
-#clients{
-  margin:160px auto;
-}
-
 
 .names{
   font-family: "'Fraunces 9pt Soft'";
