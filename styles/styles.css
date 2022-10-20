@@ -113,7 +113,7 @@ p{
   background-image: url("../images/desktop/image-graphic-design.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  color:#3E7467;
+  color:#24554A;
   margin-bottom: 0px;
   width:50vw;
   height:auto;
@@ -136,14 +136,15 @@ p{
 
 .text-on-images {
   width: 60%;
+  height:600px;
   margin:auto;
   text-align: center;
+  padding-top:45%;
 }
 
 .subtitles {
   font-size: 28px;
   font-family: "Fraunces";
-  margin-bottom: 0;
 }
 
 #yellow-line {
@@ -190,14 +191,23 @@ p{
   font-size:14px;
 }
 
+
+
 .portraits{
   height:72px;
   width:auto;
   border-radius: 36px;
 }
 
+#testimonial-title{
+  text-transform:uppercase;
+  color:#A7AAAD;
+  letter-spacing: 3px;
+}
+
 .testimonial-text{
   color: #5B636D;
+  margin: 2em 1em;
 }
 
 #footer-images{
