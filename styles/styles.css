@@ -53,6 +53,7 @@ ul li {
   font-size: 15px;
   font-family: "Fraunces";
   text-transform: uppercase;
+  box-shadow: 2px 3px #185caa;
 }
 
 h1 {
@@ -212,7 +213,6 @@ p{
 
 #footer-images{
   display: flex;
-  align-content: flex-start;  
 }
 
 .footer-img{
@@ -223,10 +223,25 @@ p{
 #footer-green{
   background-color: #90D4C6;
   color: #2C7566;
+  height:350px;
+  width:100vw;
 }
 
 
 footer ul {
   display: flex;
-  margin:140px auto;
+  margin: 2em auto;
+  justify-content: center;
+}
+
+#logo-bottom{
+  display: flex;
+  margin:auto;
+  padding-top:80px;
+  justify-content: center;
+}
+
+.social-icons{
+  height:20px;
+  margin-top:2em;
 }
