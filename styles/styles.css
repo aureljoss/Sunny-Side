@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: "Barlow", serif;
   font-size: 18px;
+  align-items: center;
 }
 
 nav {
@@ -10,19 +11,30 @@ nav {
   padding: 2em 4em;
   color: white;
   align-items: center;
-  position: absolute;
-  margin:0 auto;
+  
+  
+}
+
+nav ul{
+  right:0px;
+}
+
+#background-img{
+  min-height: 85vw;
+  width:100vw;
+  background-image:url("../images/icon-arrow-down.svg"), url("../images/mobile/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size:5vw, 100vw;
+  background-position-x:50%;
+  background-position-y:25vw, 100%;
+  z-index: -1;
+  position:absolute;
 }
 
 #creatives {
   text-align: center;
   color: white;
   min-height: 85vw;
-  background-image:url("../images/icon-arrow-down.svg"), url("../images/mobile/image-header.jpg");
-  background-repeat: no-repeat;
-  background-size:5vw, 100vw;
-  background-position-x:50%;
-  background-position-y:25vw, 100%;
 }
 
 #menu {
@@ -51,6 +63,7 @@ h1 {
   font-family: "Fraunces";
   text-transform: uppercase;
   font-size: 56px;
+  margin:0;
 }
 
 h3 {
