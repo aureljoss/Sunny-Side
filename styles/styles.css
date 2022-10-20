@@ -8,25 +8,19 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 2em 4em;
+  padding: 2em 2em;
   color: white;
   align-items: center;
-  
-  
-}
-
-nav ul{
-  right:0px;
 }
 
 #background-img{
-  min-height: 85vw;
-  width:100vw;
+  min-height: 80vh;
+  width: 100vw;
   background-image:url("../images/icon-arrow-down.svg"), url("../images/mobile/image-header.jpg");
   background-repeat: no-repeat;
-  background-size:5vw, 100vw;
+  background-size:3vw, 100vw;
   background-position-x:50%;
-  background-position-y:25vw, 100%;
+  background-position-y:28vw, 100%;
   z-index: -1;
   position:absolute;
 }
@@ -34,7 +28,9 @@ nav ul{
 #creatives {
   text-align: center;
   color: white;
-  min-height: 85vw;
+  padding-top:4rem;
+  letter-spacing: 10px;
+  height:62.85vh;
 }
 
 #menu {
@@ -44,15 +40,15 @@ nav ul{
 
 ul li {
   list-style-type: none;
-  margin: 0 2em;
+  margin: 0 1.5em;
 }
 
 #contact {
   margin: 0em 2em;
   background-color: #ffffff;
   color: #24303e;
-  padding: 0.5em 1em;
-  border-radius: 1em;
+  padding: 0.9em 1em;
+  border-radius: 2em;
   font-weight: 600;
   font-size: 15px;
   font-family: "Fraunces";
@@ -94,6 +90,7 @@ p{
 
 .first-half{
     width:50vw;
+    padding: 8% 6% 6% 8%;
 }
 
 .images-div{
