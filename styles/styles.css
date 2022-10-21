@@ -353,10 +353,7 @@ footer ul {
   }
 
   .text-on-images {
-    width: 70vw;
-    height: 600px;
-    margin: auto;
-    text-align: center;
-    padding-top: 65%;
+    width: 90vw;
+    padding-top: 75%;
   }
 }
