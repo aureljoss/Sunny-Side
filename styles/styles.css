@@ -63,6 +63,12 @@ ul li {
   box-shadow: 2px 3px #185caa;
 }
 
+#contact:hover{
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0px 0px;
+}
+
 h1 {
   font-family: "Fraunces";
   text-transform: uppercase;
@@ -155,7 +161,7 @@ p {
 }
 
 #yellow-line {
-  background-color: #fad400;
+  background-color: rgb(250, 212, 0,0.35);
   height: 10px;
   width: 6rem;
   border-radius: 28px;
@@ -164,14 +170,22 @@ p {
   position: absolute;
 }
 
+#yellow-line :hover{
+  background-color: rgb(250, 212, 0);
+}
+
 #red-line {
-  background-color: #fe7766;
+  background-color: rgb(254, 119, 102,0.35);
   height: 10px;
   width: 6rem;
   border-radius: 28px;
   z-index: -1;
   transform: translateY(-22px);
   position: absolute;
+}
+
+#red-line :hover{
+  background-color:rgb(254, 119, 102);
 }
 
 #clients {
