@@ -63,10 +63,11 @@ ul li {
   box-shadow: 2px 3px #185caa;
 }
 
-#contact:hover{
+#contact:hover {
   color: white;
   background-color: rgba(255, 255, 255, 0.25);
   box-shadow: 0px 0px;
+  cursor: pointer;
 }
 
 h1 {
@@ -161,7 +162,7 @@ p {
 }
 
 #yellow-line {
-  background-color: rgb(250, 212, 0,0.35);
+  background-color: rgb(250, 212, 0, 0.35);
   height: 10px;
   width: 6rem;
   border-radius: 28px;
@@ -170,12 +171,13 @@ p {
   position: absolute;
 }
 
-#yellow-line :hover{
+#yellow-line :hover {
   background-color: rgb(250, 212, 0);
+  cursor: pointer;
 }
 
 #red-line {
-  background-color: rgb(254, 119, 102,0.35);
+  background-color: rgb(254, 119, 102, 0.35);
   height: 10px;
   width: 6rem;
   border-radius: 28px;
@@ -184,8 +186,9 @@ p {
   position: absolute;
 }
 
-#red-line :hover{
-  background-color:rgb(254, 119, 102);
+#red-line :hover {
+  background-color: rgb(254, 119, 102);
+  cursor: pointer;
 }
 
 #clients {
@@ -245,6 +248,11 @@ p {
   width: 100vw;
 }
 
+#footer-green li:hover {
+  color: white;
+  cursor: pointer;
+}
+
 footer ul {
   display: flex;
   margin: 2em auto;
@@ -261,4 +269,9 @@ footer ul {
 .social-icons {
   height: 20px;
   margin-top: 2em;
+}
+
+.social-icons :hover {
+  fill: white;
+  cursor: pointer;
 }
