@@ -70,6 +70,14 @@ ul li {
   cursor: pointer;
 }
 
+#hamburger {
+  display: none;
+}
+
+#logo {
+  width: 10rem;
+}
+
 h1 {
   font-family: "Fraunces";
   text-transform: uppercase;
@@ -249,7 +257,7 @@ p {
 }
 
 #footer-green li:hover {
-  color: white;
+  color: hsl(0, 0%, 100%);
   cursor: pointer;
 }
 
@@ -274,4 +282,81 @@ footer ul {
 .social-icons :hover {
   fill: white;
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  #menu {
+    display: none;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  #hamburger {
+    display: block;
+  }
+
+  nav {
+    color: #808397;
+    max-width: 90vw;
+    padding: 5vw 5vw;
+  }
+
+  #background-img {
+    background-size: 8vw, 200vw;
+  }
+
+  #creatives {
+    padding-top: 0rem;
+    letter-spacing: 10px;
+    position: absolute;
+    width: 100%;
+  }
+
+  .two-columns {
+    display: block;
+    height: auto;
+    width: 100vw;
+  }
+
+  .first-half {
+    width: 100vw;
+    padding: 0%;
+  }
+
+  .pictures {
+    height: auto;
+    width: 100vw;
+    margin: 0px;
+    object-fit: fill;
+  }
+
+  .half-text {
+    width: 70vw;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 4rem;
+    height: auto;
+  }
+
+  #cherries {
+    margin-bottom: 0px;
+    width: 100vw;
+    height: 600px;
+  }
+
+  #orange {
+    margin-bottom: 0px;
+    width: 100vw;
+    height: 600px;
+  }
+
+  .text-on-images {
+    width: 70vw;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    padding-top: 65%;
+  }
 }
