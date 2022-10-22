@@ -5,6 +5,29 @@ body {
   align-items: center;
 }
 
+h1 {
+  font-family: "Fraunces";
+  text-transform: uppercase;
+  font-size: 56px;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Fraunces";
+  font-size: 40px;
+  font-weight: 900;
+}
+
+h6 {
+  font-size: 20px;
+  font-family: "Fraunces 9pt Soft";
+  font-weight: 900;
+}
+
+p {
+  font-weight: 600;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -76,29 +99,6 @@ ul li {
 
 #logo {
   width: 10rem;
-}
-
-h1 {
-  font-family: "Fraunces";
-  text-transform: uppercase;
-  font-size: 56px;
-  margin: 0;
-}
-
-h3 {
-  font-family: "Fraunces";
-  font-size: 40px;
-  font-weight: 900;
-}
-
-h6 {
-  font-size: 20px;
-  font-family: "Fraunces 9pt Soft";
-  font-weight: 900;
-}
-
-p {
-  font-weight: 600;
 }
 
 .clickable {
@@ -285,6 +285,10 @@ footer ul {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    max-width: 600px;
+  }
+
   #menu {
     display: none;
   }
@@ -386,5 +390,18 @@ footer ul {
   .testimonial-text {
     color: #5b636d;
     margin: 2em auto;
+  }
+
+  .footer-img {
+    width: 50vw;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  footer ul {
+    width: 80vw;
+    display: flex;
+    margin: 2em auto;
+    justify-content: center;
   }
 }
