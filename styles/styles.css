@@ -344,16 +344,47 @@ footer ul {
     margin-bottom: 0px;
     width: 100vw;
     height: 600px;
+    background-position-x: -50vw;
+    background-position-y: 0vh;
   }
 
   #orange {
     margin-bottom: 0px;
     width: 100vw;
     height: 600px;
+    background-position-x: -50vw;
+    background-position-y: 0vh;
   }
 
   .text-on-images {
-    width: 90vw;
+    width: 80vw;
     padding-top: 75%;
+    height: 600px;
+    margin: auto;
+  }
+
+  .one-third {
+    max-width: 90vw;
+    margin: auto 15px;
+  }
+
+  #clients {
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  #three-columns {
+    display: block;
+  }
+
+  #testimonial-title {
+    text-transform: uppercase;
+    color: #a7aaad;
+    letter-spacing: 3px;
+  }
+
+  .testimonial-text {
+    color: #5b636d;
+    margin: 2em auto;
   }
 }
