@@ -285,10 +285,6 @@ footer ul {
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    max-width: 600px;
-  }
-
   #menu {
     display: none;
   }
@@ -348,7 +344,7 @@ footer ul {
     margin-bottom: 0px;
     width: 100vw;
     height: 600px;
-    background-position-x: -50vw;
+    background-position-x: -0vw;
     background-position-y: 0vh;
   }
 
@@ -392,10 +388,14 @@ footer ul {
     margin: 2em auto;
   }
 
-  .footer-img {
-    width: 50vw;
+  #footer-images {
+    display: flex;
     flex-wrap: wrap;
+  }
+
+  .footer-img {
     height: auto;
+    width: 50%;
   }
 
   footer ul {
@@ -403,5 +403,12 @@ footer ul {
     display: flex;
     margin: 2em auto;
     justify-content: center;
+  }
+  #yellow-line {
+    left: 40%;
+  }
+  
+  #red-line {
+    left: 40%;
   }
 }
