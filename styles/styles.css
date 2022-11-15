@@ -40,7 +40,7 @@ nav {
 }
 
 #background-img {
-  min-height: 60vh;
+  min-height: 800px;
   width: 100vw;
   background-image: url("../images/icon-arrow-down.svg"),
     url("../images/desktop/image-header.jpg");
@@ -50,6 +50,10 @@ nav {
   background-position-y: 30vh, 100%;
   z-index: -1;
   background-color: #3ebfff;
+}
+
+.description{
+  font-size: 16px;;
 }
 
 #creatives {
@@ -68,7 +72,7 @@ nav {
   padding-right: 2em;
 }
 
-ul li {
+#menu li {
   list-style-type: none;
   margin: 0 1.5em;
 }
@@ -107,6 +111,11 @@ ul li {
   z-index: 1;
   font-family: "Fraunces";
 }
+
+.clickable:hover {
+  cursor: pointer;
+}
+
 .two-columns {
   display: flex;
   height: 600px;
@@ -122,7 +131,7 @@ ul li {
   height: 600px;
   width: 50vw;
   margin: 0px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .half-text {
@@ -170,33 +179,23 @@ ul li {
 }
 
 #yellow-line {
-  background-color: rgb(250, 212, 0, 0.35);
+  background-color: rgb(250, 212, 0);
   height: 10px;
   width: 6rem;
   border-radius: 28px;
   z-index: -1;
   transform: translateY(-22px);
   position: absolute;
-}
-
-#yellow-line :hover {
-  background-color: rgb(250, 212, 0);
-  cursor: pointer;
 }
 
 #red-line {
-  background-color: rgb(254, 119, 102, 0.35);
+  background-color: rgb(254, 119, 102);
   height: 10px;
   width: 6rem;
   border-radius: 28px;
   z-index: -1;
   transform: translateY(-22px);
   position: absolute;
-}
-
-#red-line :hover {
-  background-color: rgb(254, 119, 102);
-  cursor: pointer;
 }
 
 #clients {
@@ -265,6 +264,11 @@ footer ul {
   display: flex;
   margin: 2em auto;
   justify-content: center;
+  list-style-type: none;
+}
+
+footer ul li {
+  padding:0 1em;
 }
 
 #logo-bottom {
@@ -283,6 +287,8 @@ footer ul {
   fill: white;
   cursor: pointer;
 }
+
+/* --------- MOBILE --------- */
 
 @media screen and (max-width: 600px) {
   body, html {
@@ -324,6 +330,10 @@ footer ul {
     display: block;
     height: auto;
     width: 100vw;
+  }
+
+  #glass{
+    display: none;
   }
 
   .first-half {
@@ -376,7 +386,7 @@ footer ul {
 
   #clients {
     text-align: center;
-    margin: 10px auto;
+    margin: 8vh auto;
   }
 
   #three-columns {
@@ -403,6 +413,7 @@ footer ul {
     height: auto;
     width: 50vw;
   }
+
 
   footer ul {
     width: 90vw;
