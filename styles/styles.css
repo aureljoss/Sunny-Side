@@ -288,6 +288,10 @@ footer ul li {
   cursor: pointer;
 }
 
+#menu-hide{
+  display:none;
+}
+
 /* --------- MOBILE --------- */
 
 @media screen and (max-width: 600px) {
@@ -317,6 +321,10 @@ footer ul li {
 
   #background-img {
     background-size: 8vw, 200vw;
+    background-position-y: 30vh, 100%;
+    min-height: 60vh;
+    }
+    
   }
 
   #creatives {
