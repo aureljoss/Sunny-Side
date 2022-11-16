@@ -185,6 +185,11 @@ nav {
   font-family: "Fraunces";
 }
 
+.section-link{
+  text-decoration: none;
+  color: #808397;
+}
+
 #yellow-line {
   background-color: rgb(250, 212, 0);
   height: 10px;
