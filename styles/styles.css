@@ -289,7 +289,19 @@ footer ul li {
 }
 
 #menu-hide{
-  display:none;
+  display:;
+  position:absolute;
+  left:5vw;
+  list-style: none;
+  background-color: #FFFCF8;
+  height:300px;
+  width: 80vw;
+  margin:auto;
+  line-height: 2em;
+  text-align: center;
+  z-index: 1;
+  top:10vh;
+  vertical-align: center;
 }
 
 /* --------- MOBILE --------- */
