@@ -289,19 +289,31 @@ footer ul li {
 }
 
 #menu-hide{
-  display:;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
   position:absolute;
-  left:5vw;
+  left:10vw;
   list-style: none;
   background-color: #FFFCF8;
   height:300px;
-  width: 80vw;
+  width: 70vw;
   margin:auto;
   line-height: 2em;
   text-align: center;
   z-index: 1;
   top:10vh;
-  vertical-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 2.5em;
+}
+
+#contact-hidden{
+  background-color: #FBD600;
+  width: 140px;
+  margin: 1rem auto;
+  border-radius:20px;
+  color:black;
 }
 
 /* --------- MOBILE --------- */
