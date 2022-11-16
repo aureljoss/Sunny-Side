@@ -4,6 +4,7 @@ body {
   font-size: 18px;
   align-items: center;
   overflow-x:hidden;
+  max-width: 100vw;
 }
 
 h1 {
@@ -38,7 +39,7 @@ nav {
   align-items: center;
   position: absolute;
   top: 0px;
-  width: 100vw;
+  width: 90%;
 }
 
 #background-img {
@@ -77,6 +78,10 @@ nav {
 #menu li {
   list-style-type: none;
   margin: 0 1.5em;
+}
+
+#hide-desktop{
+  display:none;
 }
 
 #contact {
@@ -172,7 +177,7 @@ nav {
   height: 600px;
   margin: auto;
   text-align: center;
-  padding-top: 45%;
+  padding-top: 55%;
 }
 
 .subtitles {
@@ -459,5 +464,9 @@ footer ul li {
   
   #red-line {
     left: 40%;
+  }
+
+  #hide-desktop{
+    display: block;
   }
 }
