@@ -50,7 +50,7 @@ nav {
   background-repeat: no-repeat;
   background-size: 3vw, 100vw;
   background-position-x: 50%;
-  background-position-y: 30vh, 100%;
+  background-position-y: 40vh, 100%;
   z-index: -1;
   background-color: #3ebfff;
 }
@@ -117,6 +117,8 @@ nav {
   font-weight: 900;
   z-index: 1;
   font-family: "Fraunces";
+  text-decoration: none;
+  color:black;
 }
 
 .clickable:hover {
@@ -155,6 +157,7 @@ nav {
   margin-bottom: 0px;
   width: 50vw;
   height: auto;
+  max-height:600px;
 }
 
 #orange {
@@ -165,6 +168,8 @@ nav {
   margin-bottom: 0px;
   width: 50vw;
   height: auto;
+  max-height:600px;
+
 }
 
 .grey {
@@ -176,8 +181,9 @@ nav {
   width: 60%;
   height: 600px;
   margin: auto;
+  max-height:30%;
   text-align: center;
-  padding-top: 55%;
+  padding-top: 65%;
 }
 
 .subtitles {
@@ -196,7 +202,7 @@ nav {
   width: 6rem;
   border-radius: 28px;
   z-index: -1;
-  transform: translateY(-22px);
+  transform: translateY(-7px);
   position: absolute;
 }
 
@@ -258,6 +264,11 @@ nav {
 .footer-img {
   width: 25vw;
   height: auto;
+}
+
+.linksFooter{
+  text-decoration: none;
+  color: #2c7566;
 }
 
 #footer-green {
@@ -330,7 +341,7 @@ footer ul li {
 
 /* --------- MOBILE --------- */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   body, html {
     width: 100vw;
     min-width: 100vw;
