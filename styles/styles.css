@@ -196,6 +196,11 @@ nav {
   color: #808397;
 }
 
+.navlink{
+  text-decoration:none;
+  color:white;
+}
+
 #yellow-line {
   background-color: rgb(250, 212, 0);
   height: 10px;
@@ -337,6 +342,26 @@ footer ul li {
   margin: 1rem auto;
   border-radius:20px;
   color:black;
+}
+
+/*---------- About Page -------- */
+
+#why{
+  margin-top: 20vh;
+  width:60vw;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu-about{
+  color:black;
+  display:flex;
+  flex-direction: row;
+}
+
+#menu-about li{
+  list-style-type: none;
+  margin: 0 6px;
 }
 
 /* --------- MOBILE --------- */
