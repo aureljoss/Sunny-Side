@@ -276,14 +276,14 @@ nav {
   color: #2c7566;
 }
 
-#footer-green {
+.footer-green {
   background-color: #90d4c6;
   color: #2c7566;
   height: 350px;
   width: 100vw;
 }
 
-#footer-green li:hover {
+.footer-green li:hover {
   color: hsl(0, 0%, 100%);
   cursor: pointer;
 }
@@ -299,7 +299,7 @@ footer ul li {
   padding:0 1em;
 }
 
-#logo-bottom {
+.logo-bottom {
   display: flex;
   margin: auto;
   padding-top: 80px;
